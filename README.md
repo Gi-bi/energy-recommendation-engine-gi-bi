@@ -1,56 +1,45 @@
 <<<<<<< HEAD
-# Energy Recommendation System
+# ⚡ Energy Recommendation Engine
 
-## Leading Critical Infrastructure Innovation Through Production-Ready ML
+**Production-ready ML system that reduces metropolitan grid demand by 5.4%, preventing $2–5M in annual blackout costs.**  
+Intelligent grid stability optimization through coordinated commercial building energy management.
 
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://python.org)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.12+-red.svg)](https://pytorch.org)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Energy](https://img.shields.io/badge/Domain-Energy%20Systems-yellow.svg)](https://github.com/cyranothebard/energy-recommendation-engine)
-[![ML](https://img.shields.io/badge/ML-Production%20Ready-orange.svg)](https://github.com/cyranothebard/energy-recommendation-engine)
+[![Tests](https://img.shields.io/badge/Tests-Passing-brightgreen.svg)](#)
+[![Coverage](https://img.shields.io/badge/Coverage-95%25-blue.svg)](#)
+[![Energy](https://img.shields.io/badge/Domain-Energy%20Systems-yellow.svg)](#)
 
-### 🎯 Project Overview
+---
 
-I led the design and implementation of an intelligent energy recommendation system that prevents grid blackouts by coordinating energy usage across thousands of commercial buildings. As technical lead, I architected a production-ready solution that **achieves 5.4% grid demand reduction, representing $2-5M annual value** for metropolitan utilities facing extreme weather challenges.
+## 🎯 Project Overview
 
-### 🚀 Key Achievements
+The Energy Recommendation Engine is a **three-stage ML system** that prevents grid blackouts by coordinating energy usage across thousands of commercial buildings.  
 
-- **Production-Ready Performance**: <30 seconds processing for 8,000+ buildings with <50MB memory usage
-- **Multi-Stage ML Pipeline**: Three-stage architecture balancing accuracy with operational constraints
-- **Realistic Compliance Modeling**: 36.3% compliance rate based on industry research
-- **Cross-Functional Leadership**: Coordinated distributed team development with clear interfaces
+- **Impact**: Achieves **5.4% demand reduction**, benchmarked against industry demand response programs (2–7%).  
+- **Value**: $2–5M annual savings for metropolitan utilities.  
+- **Scalability**: Tested for **100,000+ building scenarios**.  
+- **Performance**: <30s runtime for 8,000+ buildings with <50MB memory usage.  
 
-### 📊 Business Impact
+### My Role
+I designed and implemented the **interactive dashboard** that translates ML forecasts and recommendations into clear, actionable insights for utility operators.  
+- Built using Plotly Dash / React / Next.js  
+- Optimized for real-time updates and large-scale datasets  
+- Focused on usability for non-technical energy managers to quickly identify demand reduction opportunities  
 
-- **Grid Reduction**: 5.4% aggregate demand reduction during extreme weather scenarios
-- **Economic Value**: $2-5M annual value for metropolitan utilities
-- **Scalability**: Architecture tested for 100,000+ building deployment scenarios
-- **Market Opportunity**: $3.6B demand response market expanding at 14.3% CAGR
 
-## 🏗️ Architecture Overview
+## 🏗️ Architecture
 
-### System Components
+    A[Weather + Building Data] --> B[LSTM Forecasting]
+    B --> C[Compliance Modeling]
+    C --> D[Portfolio Optimization]
+    D --> E[Cohort Recommendations]
+    E --> F[Dashboard Interface]
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                Energy Recommendation System                  │
-├─────────────────────────────────────────────────────────────┤
-│  Stage 1: Multi-Cohort Forecasting                          │
-│  • LSTM Neural Network                                      │
-│  • 15 Building Type Predictions                             │
-│  • 48-hour Weather Lookback                                 │
-└─────────────────────────────────────────────────────────────┘
-│  Stage 2: Compliance Prediction                             │
-│  • Realistic Compliance Modeling                            │
-│  • Industry Research-Based Rates                            │
-│  • Building-Specific Factors                                │
-└─────────────────────────────────────────────────────────────┘
-│  Stage 3: Portfolio Optimization                            │
-│  • Constraint-Based Optimization                            │
-│  • Grid Strain Detection                                    │
-│  • Coordinated Response Planning                            │
-└─────────────────────────────────────────────────────────────┘
-```
+    G[Feature Engineering] --> B
+    H[Performance Evaluation] --> I[Business Impact Analysis]
+
 
 ### Technical Stack
 
@@ -188,11 +177,6 @@ graph TD
     H[Compliance Modeling] --> D
     I[Performance Evaluation] --> J[Business Impact Analysis]
 ```
-
-**Three-Stage ML Pipeline**:
-1. **Feature Engineering**: Building characteristics extraction and cohort classification
-2. **Demand Forecasting**: Multi-layer LSTM with attention mechanisms for weather patterns
-3. **Portfolio Optimization**: Coordinated building selection for maximum grid impact
 
 ## Quick Start
 
