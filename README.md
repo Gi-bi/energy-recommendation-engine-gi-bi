@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # ⚡ Energy Recommendation Engine
 
 **Production-ready ML system that reduces metropolitan grid demand by 5.4%, preventing $2–5M in annual blackout costs.**  
